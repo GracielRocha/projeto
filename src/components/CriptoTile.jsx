@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CryptoTile = ({data, selectedTile, onClick} ) => {
+const CriptoTile = ({data, selectedTile, onClick} ) => {
     const {name, rate, icon} = data ///name = data.name|rate = data.rate|icon = data.icon
 
     const handleClick = () => onClick(data)
@@ -20,6 +20,6 @@ const CryptoTile = ({data, selectedTile, onClick} ) => {
 
 }
 
-export default CryptoTile
+export default CriptoTile
         
     

@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
+// eslint-disable-next-line no-unused-vars
 const Input = styled.input`
     width: 75%;
     margin-top: 20px;
